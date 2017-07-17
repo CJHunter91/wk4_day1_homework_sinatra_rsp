@@ -1,0 +1,9 @@
+<% 
+game = RockPaperScissors.new(params[:player1], params[:player2]) 
+
+%>
+
+
+<h1>Game between <%=params[:player1] + " and " + params[:player2]%></h1>
+
+<h2><%= game.play %></h2>
