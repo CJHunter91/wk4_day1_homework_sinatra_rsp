@@ -1,0 +1,13 @@
+<% 
+path1 = params[:player1] + "/rock"
+path2 = params[:player1] + "/paper"
+path3 = params[:player1]  + "/scissors"
+%>
+
+<p>Player 2 now needs to choose their play.</p>
+
+<ul>
+<li><a href= <%= path1 %> >Rock</a></li>
+  <li><a href= <%= path2 %> >Paper</a></li>
+  <li><a href= <%= path3 %> >Scissors</a></li>
+</ul>

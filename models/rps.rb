@@ -7,24 +7,24 @@ class RockPaperScissors
   end
 
   def play
-    if @player1 == "Rock"
+    if @player1 == "rock"
       case @player2
-        when 'Scissors'; return 'Rock wins!' 
-        when 'Paper'; return 'Paper wins!'
+        when 'scissors'; return 'Rock wins!' 
+        when 'paper'; return 'Paper wins!'
         else; return "Draw!" 
       end
     end
-    if @player1 == "Scissors"
+    if @player1 == "scissors"
       case @player2
-        when 'Rock'; return 'Rock wins!' 
-        when 'Paper'; return 'Scissors wins!'
+        when 'rock'; return 'Rock wins!' 
+        when 'paper'; return 'Scissors wins!'
         else; return "Draw!" 
       end
     end
-    if @player1 == "Paper"
+    if @player1 == "paper"
       case @player2
-        when 'Rock'; return 'Paper wins!' 
-        when 'Scissors'; return 'Scissors wins!'
+        when 'rock'; return 'Paper wins!' 
+        when 'scissors'; return 'Scissors wins!'
         else; return "Draw!" 
       end
     end

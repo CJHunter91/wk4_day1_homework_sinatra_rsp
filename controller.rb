@@ -12,3 +12,7 @@ get "/game/:player1/:player2" do
   erb(:game)
 end
 
+get "/game/:player1" do
+  erb(:player1)
+end
+
