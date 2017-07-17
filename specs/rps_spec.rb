@@ -19,6 +19,10 @@ class TestRockPaperScissors < MiniTest::Test
     game1 = RockPaperScissors.new('Rock', 'Rock')
     assert_equal('Draw!', game1.play)
   end
-  
+
+  def test_paper_v_rock
+      game1 = RockPaperScissors.new('Paper', 'Rock')
+      assert_equal('Paper wins!', game1.play)
+  end  
 
 end
